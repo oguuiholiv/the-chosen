@@ -61,9 +61,10 @@ body {
   transition: 0.2s;
 }
 .container {
-  width: 75%;
+  width: 75vw;
   height: 95vh;
   position: relative;
+  border: 1px solid red;
   margin-left: 250px;
   padding-top: 6rem;
   font-family: "Stint Ultra Expanded", cursive;
@@ -94,7 +95,7 @@ body {
   width: 98%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   column-gap: 3rem;
   row-gap: 4rem;
 }
