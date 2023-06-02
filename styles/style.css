@@ -92,9 +92,9 @@ body {
   text-align: justify;
   padding-left: 2rem;
   padding-top: 2rem;
-  color: #005e50;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #fff;
+  color: #fff;
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff; */
 }
 .content {
   width: 98%;
@@ -119,4 +119,20 @@ body {
 .content .card > span {
   font-size: 0.8rem;
   font-family: inherit;
+}
+
+.container-curiosity p{
+  font-size: 1rem;
+  color: white;
+  font-weight: 100;
+}
+.container-curiosity{
+  display: grid;
+  gap: 1rem;
+}
+.container-curiosity .box{
+  background-color: rgba(0, 94, 80, 0.8);
+  padding: 1rem;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
 }
