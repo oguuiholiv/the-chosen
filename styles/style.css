@@ -179,6 +179,7 @@ body {
 .input{
   display: flex;
   flex-direction: column;
+  gap: 0.3rem;
 }
 
 .inputs{
